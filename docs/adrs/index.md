@@ -1,4 +1,4 @@
 # Architecture Decision Records
 
-* [](0001-record-architecture-decisions.md)
-* [Need for StackMon](0002-intro.md)
+* [1. Record architecture decisions](0001-record-architecture-decisions.md)
+* [2. Need for StackMon](0002-intro.md)
