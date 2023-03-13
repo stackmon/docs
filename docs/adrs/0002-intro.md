@@ -1,10 +1,12 @@
 # 2. Need for StackMon
 
-* Status: proposed
-* Deciders: [list everyone involved in the decision] <!-- optional -->
-* Date: 2020-XX-XX
+* Status: accepted
+* Deciders: [Artem Goncharov, Vladimir Hasko, Kristian Kucerak]
+* Date: 2019-01-01
 
-Technical Story: [description | ticket/issue URL] <!-- optional -->
+Technical Story: Public cloud operator wants to permanently observe whether
+regular user load (i.e. provision server) is working at all points in time and
+to know when problem occurs before customer will complain.
 
 ## Context and Problem Statement
 
@@ -12,9 +14,6 @@ There are multiple existing solution to monitor certain systems, but so far ther
 is nothing that can cover complexity of monitoring cloud. Such system involves very
 complex component relations and can not be normally monitored by simple metrics.
 
-## Decision Drivers <!-- optional -->
-
-* Public Cloud provider need to be able to see and measure quality of service it delivers
 
 ## Considered Options
 
@@ -46,9 +45,3 @@ Stack should be implementing/using following components
 
 * Good, because certain tests are already defined
 * Bad, because hard to understand by a regular user/op - requires deep developer skils
-
-
-## Links <!-- optional -->
-
-* [Link type] [Link to ADR] <!-- example: Refined by [ADR-0005](0005-example.md) -->
-* … <!-- numbers of links can vary -->
