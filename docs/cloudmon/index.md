@@ -61,3 +61,7 @@ Nowadays it is unavoidable to use TLS protection for all of the services. Sadly
 this is also one of the most challenging things in automating because of
 variety of ways to manage those. Due to that CloudMon system assumes all SSL
 certificates are available on the hosts and managed outside.
+
+# Project documentation
+
+[CloudMon documentation](https://stackmon-status-dashboard.readthedocs.io/en/latest/)
