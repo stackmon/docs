@@ -1,4 +1,4 @@
-# Status Dashboard
+# [Status Dashboard](https://stackmon-status-dashboard.readthedocs.io/en/latest/)
 
 Once system is monitoried there might be a desire to have a status dashboard
 that uses monitoring data. Being something like a public cloud puts certain
