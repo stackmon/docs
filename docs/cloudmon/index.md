@@ -1,4 +1,4 @@
-# CloudMon manager
+# [CloudMon manager](https://stackmon-cloudmon.readthedocs.io)
 
 Deploying every component of the monitoring is a very tedious task. Especially
 dealing with config files in big clusters is not possible without a proper
@@ -64,4 +64,4 @@ certificates are available on the hosts and managed outside.
 
 # Project documentation
 
-[CloudMon documentation](https://stackmon-status-dashboard.readthedocs.io/en/latest/)
+[CloudMon documentation](https://stackmon-cloudmon.readthedocs.io)
