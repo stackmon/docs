@@ -8,3 +8,6 @@ the API discovery of the OpenStack cloud (perform GET request to /servers or
 the compute endpoint). Such requests are cheap and can be performed in the loop
 i.e. every 5 seconds. Latency of those calls, as well as the return codes are
 being captured and sent to the metrics storage.
+
+EpMon is running as separate prioritized thread in scheduler to handle
+concurrency conflicts with running ApiMon monitoring scenarios.
