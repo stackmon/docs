@@ -1,9 +1,9 @@
-# PostgreSQL
+# Relational DB
 
-StackMon uses [PostgreSQL](https://www.postgresql.org/) as a relational database
-solution. Three independent databases are deployed in Stackmon environment:
+StackMon relies on a relational database for variety of purposes. 
 
- - database for ApiMon monitoring playbooks test results 
- - database for Status Dashboard metrics
- - database for Grafana dashboard
- 
+Three independent databases are deployed in Stackmon environment:
+
+ - database for ApiMon monitoring playbooks test results
+ - database for Status Dashboard metrics (once status dashboard is enabled)
+ - database for Grafana dashboard (once Grafana is managed as part of StackMon)
