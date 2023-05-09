@@ -1,5 +1,8 @@
 # EpMon
 
+EpMon is a standalone python based process and is for every OpenStack service
+it find in the service catalogs send GET requests to the configured endpoints.
+
 Performing extensive tests like provisioning a server is giving a great
 coverage, but is usually not something what can be performed very often and
 leaves certain gaps on the timescale of monitoring. In order to cover this gap
