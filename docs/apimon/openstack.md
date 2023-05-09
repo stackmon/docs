@@ -12,7 +12,7 @@ Note that metrics will be reported only when corresponding client libraries
 (statsd for ‘statsd’ reporting, influxdb for influxdb, etc.). If libraries are
 not available reporting will be silently ignored.
 
-In StackMon the execution of API related tassk in ansible playbook monitoring
+In StackMon the execution of API related task in ansible playbook monitoring
 scenarios rely on the [Python OpenStack
 SDK](https://docs.openstack.org/openstacksdk/latest/) which natively generates
 the metrics from the triggered API calls. The metrics are sent to statsd and
