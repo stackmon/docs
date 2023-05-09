@@ -1,10 +1,11 @@
 
 # Alerta
 
-Alerta is a component of the **CloudMon** that is designed to integrate
-**alerts** from multiple sources. It supports many different standard sources
-like Syslog, SNMP, Prometheus, Nagios, Zabbix, etc. Additioanlly any other type
-of source using URL request or command line can be integrated as well.
+Alerta is an optional component of the **CloudMon** that is designed to
+integrate **alerts** from multiple sources. It supports many different standard
+sources like Syslog, SNMP, Prometheus, Nagios, Zabbix, etc. Additioanlly any
+other type of source using URL request or command line can be integrated as
+well.
 
 Native functions like **correlation** and **de-duplication** help to manage
 thousands of alerts in transparent way and consolidate alerts in proper
