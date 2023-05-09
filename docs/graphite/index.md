@@ -6,7 +6,7 @@
  row of statsd processes which aggregate metrics to 10s precision.
 
 General storage retention policy for the metrics is applied by the
-[https://github.com/opentelekomcloud-infra/system-config/blob/main/playbooks/roles/graphite/templates/storage-schemas.conf.j2#L22](https://github.com/opentelekomcloud-infra/system-config/blob/main/playbooks/roles/graphite/templates/storage-schemas.conf.j2#L22)
+[https://raw.githubusercontent.com/stackmon/cloudmon/main/cloudmon/ansible/project/roles/graphite/templates/storage-schemas.conf.j2](https://raw.githubusercontent.com/stackmon/cloudmon/main/cloudmon/ansible/project/roles/graphite/templates/storage-schemas.conf.j2)
 and currently evals to "10s:6h,1m:6d,10m:3y"
 
 All metrics are under "stats" namespace:
@@ -25,11 +25,10 @@ Counters and timers have following subbranches:
 
 Every section has further following branches:
 
--   environment name (production_eu-de, production_eu-nl, etc)
-    -   monitoring location (production_eu-de, awx) - specification of the
+-   environment name (production_regA, production_regB, etc)
+    -   monitoring location (production_regA, awx) - specification of the
         environment from which the metric is gathered
 
-  
 
 ##### openstack.api:
 
@@ -46,7 +45,6 @@ OpenStack metrics branch is structured as following:
             -   passed - counter of requests receiving any response back (only for counters)
 
   
-
 ##### apimon.metric:
 
 -   metric name (i.e. create_cce_cluster, delete_volume_eu-de-01, etc) - complex metrics branch
@@ -56,7 +54,6 @@ OpenStack metrics branch is structured as following:
     -   $name - short name of the host to be checked
 
   
-
 -   stats.timers.apimon.metric.$environment.$zone.**csm_lb_timings**.{public,private}.{http,https,tcp}.$az.__VALUE__ - timer values for the loadbalancer test
 -   stats.counters.apimon.metric.$environment.$zone.**csm_lb_timings**.{public,private}.{http,https,tcp}.$az.{attempted,passed,failed} - counter values for the loadbalancer test
 -   stats.timers.apimon.metric.$environment.$zone.**curl**.$host.{passed,failed}.__VALUE__ - timer values for the curl test
