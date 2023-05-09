@@ -1,8 +1,8 @@
 # Dashboard
 
 [Grafana](https://grafana.com/) is the open source analytics & monitoring
-solution for every database. StackMon use Grafana as a presentation layer for
-the ApiMon, EpMon and CloudMon metrics in various dashboards.
+solution. StackMon can use Grafana as a presentation layer for the ApiMon, 
+EpMon and CloudMon metrics in various dashboards.
 
 Grafana fullfills most of the StackMon criteria for the visualization of the
 metrics:
@@ -23,5 +23,5 @@ Grafana uses 2 main data sources for the metrics.
  - TSDB Graphite (OpenStack based metrics)
  - Relational database PostgreSQL (monitoring playbooks test resutls)
 
-** Additionally based on the defined thresholds Grafana **sends alerts directly
-to Alerta**.
+** Additionally based on the defined thresholds Grafana can **send alerts 
+directly to Alerta**.
