@@ -1,5 +1,8 @@
 # EpMon
 
+EpMon is a standalone python based process and is for every OpenStack service
+it find in the service catalogs send GET requests to the configured endpoints.
+
 Performing extensive tests like provisioning a server is giving a great
 coverage, but is usually not something what can be performed very often and
 leaves certain gaps on the timescale of monitoring. In order to cover this gap
@@ -8,6 +11,3 @@ the API discovery of the OpenStack cloud (perform GET request to /servers or
 the compute endpoint). Such requests are cheap and can be performed in the loop
 i.e. every 5 seconds. Latency of those calls, as well as the return codes are
 being captured and sent to the metrics storage.
-
-EpMon is running as separate prioritized thread in scheduler to handle
-concurrency conflicts with running ApiMon monitoring scenarios.
