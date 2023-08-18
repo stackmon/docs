@@ -8,7 +8,7 @@ This is a home for StackMon documents
 - [EpMon](epmon/index.md)
 - [CloudMon](cloudmon/index.md)
 - [Status Dashboard](status-dashboard/index.md)
-- [Metrics Processor](metrics-processor/index.md)
+- [Metrics Processor](metric-processor/index.md)
 - [Grafana Dashboard](grafana/index.md)
 - [Graphite TSDB](graphite/index.md)
 - [Alerta](alerta/index.md)
